@@ -1,0 +1,23 @@
+{
+  "name": "oraclejet-demo-card",
+  "version": "0.0.1",
+  "description": "sample composite component for OracleJET",
+  "main": "loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peppertech/oraclejet-demo-card.git"
+  },
+  "keywords": [
+    "OracleJET",
+    "CCA"
+  ],
+  "author": "John 'JB' Brock",
+  "license": "UPL",
+  "bugs": {
+    "url": "https://github.com/peppertech/oraclejet-demo-card/issues"
+  },
+  "homepage": "https://github.com/peppertech/oraclejet-demo-card#readme"
+}
