@@ -1,11 +1,11 @@
 {
   "name": "oraclejet-demo-card",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "sample composite component for OracleJET",
   "main": "loader.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "cp -R *.* ../../src/js/jet-composites/oraclejet-demo-card"
+    "postinstall": "echo %CD%"
   },
   "repository": {
     "type": "git",
