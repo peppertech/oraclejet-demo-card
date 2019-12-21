@@ -1,6 +1,6 @@
 {
   "name": "oraclejet-demo-card",
-  "version": "0.1.01",
+  "version": "0.1.02",
   "description": "sample composite component for OracleJET",
   "main": "loader.js",
   "scripts": {
