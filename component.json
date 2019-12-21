@@ -1,4 +1,8 @@
 {
+  "name": "oraclejet-demo-card",
+  "description": "A card element that can display an avatar or initials on one side and employee information on the other.",
+  "version": "8.0.0",
+  "jetVersion": ">=8.0.0 <9.0.0",
   "properties": {
     "name": {
       "description": "The employee's full name.",
@@ -18,10 +22,6 @@
     },
     "email": {
       "description": "The employee's email.",
-      "type": "string"
-    },
-    "backgroundImage": {
-      "description": "url to card background image.",
       "type": "string"
     }
   }

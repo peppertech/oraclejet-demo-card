@@ -1,9 +1,8 @@
-define(['ojs/ojcore', 'text!./demo-card.html', './demo-card', 'text!./demo-card.json', 'css!./demo-card', 'ojs/ojcomposite'],
-  function(oj, view, viewModel, metadata) {
-    oj.Composite.register('demo-card', {
-      view: {inline: view}, 
-      viewModel: {inline: viewModel}, 
-      metadata: {inline: JSON.parse(metadata)}
+define(['ojs/ojcomposite', 'text!./view.html', './viewModel', 'text!./component.json', 'css!./styles'],
+  function (Composite, view, viewModel, metadata) {
+    Composite.register('oraclejet-demo-card', {
+      view: view,
+      viewModel: viewModel,
+      metadata: JSON.parse(metadata)
     });
-  }
-);
+  });
