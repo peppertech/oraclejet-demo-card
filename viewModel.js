@@ -12,7 +12,7 @@ define(['ojs/ojknockout', 'ojs/ojavatar'],
        */
       var formatPhoneNumber = function (number) {
         return Number(number).toString().replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3');
-      }
+      };
 
       if (context.properties.name) {
         var initials = context.properties.name.match(/\b\w/g);

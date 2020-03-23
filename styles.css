@@ -1,9 +1,9 @@
 /* This is to prevent the flash of unstyled content before the composite properties have been setup. */
-demo-card:not(.oj-complete) {
+oraclejet-demo-card:not(.oj-complete) {
   visibility: hidden;
 }
 
-demo-card {
+oraclejet-demo-card {
   display: block;
   width: 16rem;
   height: 16rem;
@@ -14,25 +14,25 @@ demo-card {
   transition: transform 0.15s; 
 }
 
-demo-card:hover {
+oraclejet-demo-card:hover {
   transform: scale(1.02);
 }
 
-demo-card .demo-card-flip-container:hover {
+oraclejet-demo-card .demo-card-flip-container:hover {
   box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, .4);
 }
 
-demo-card h2,
-demo-card h5,
-demo-card .demo-card-text,
-demo-card .demo-card-avatar {
+oraclejet-demo-card h2,
+oraclejet-demo-card h5,
+oraclejet-demo-card .demo-card-text,
+oraclejet-demo-card .demo-card-avatar {
   color: #fff;
   padding: 0;
 }
 
 /* To ensure your classes are scoped correctly, we recommend scoping classes and prefixing class names with the composite name. */
-demo-card .demo-card-front-side, 
-demo-card .demo-card-back-side {
+oraclejet-demo-card .demo-card-front-side, 
+oraclejet-demo-card .demo-card-back-side {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -44,7 +44,7 @@ demo-card .demo-card-back-side {
   box-sizing: border-box;
 }
 
-demo-card .demo-card-front-side {
+oraclejet-demo-card .demo-card-front-side {
   /* Specify a background-image url to provide an image for the front of the card. */
   text-align: center;
   padding-top: 30px;
@@ -52,19 +52,19 @@ demo-card .demo-card-front-side {
   z-index: 0;
 }
 
-demo-card .demo-card-back-side {  
+oraclejet-demo-card .demo-card-back-side {  
   padding-left: 15px;
   padding-right: 15px;
   transform: rotateY(180deg);
   z-index: -1;
 }
 
-demo-card .demo-card-inner-back-side {
+oraclejet-demo-card .demo-card-inner-back-side {
   /* IE11 workaround to show back side */
   -ms-transform: rotateY(180deg);
 }
 
-demo-card .demo-card-flip-container {
+oraclejet-demo-card .demo-card-flip-container {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -74,16 +74,16 @@ demo-card .demo-card-flip-container {
   border-radius: 5px;
 }
 
-demo-card .demo-card-flip-container.demo-card-flipped {
+oraclejet-demo-card .demo-card-flip-container.demo-card-flipped {
   transform: rotateY(180deg);
 }
 
-demo-card .demo-card-flip-container.demo-card-flipped .demo-card-back-side {
+oraclejet-demo-card .demo-card-flip-container.demo-card-flipped .demo-card-back-side {
   /* IE11 workaround to show back side */
   -ms-transform: rotateY(360deg);
   z-index: 0;
 }
 
-demo-card .demo-card-avatar {
+oraclejet-demo-card .demo-card-avatar {
   margin: auto;
 }

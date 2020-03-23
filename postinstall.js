@@ -20,4 +20,4 @@ const compDetails = {
 
 mappings.libs['oraclejet-demo-card'] = compDetails;
 fs.writeFileSync('path_mapping.json', JSON.stringify(mappings, null, 2));
-console.log("The oraclejet-demo-card component has been added to your path_mapping.json file \n Add 'oraclejet-demo-card/loader' to your viewmodel dependency block to initialize this component. \n Add <demo-card> to your view to use the component.")
+console.log("The oraclejet-demo-card component has been added to your path_mapping.json file \n Add 'oraclejet-demo-card/loader' to your viewmodel dependency block to initialize this component. \n Add <oraclejet-demo-card> to your view to use the component.")
