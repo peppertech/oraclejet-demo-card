@@ -11,14 +11,14 @@ Add the following to the HTML view that you want to load the card into.
 
     <div id="card-holder" class="oj-flex">
         <!-- ko foreach: employees -->
-        <demo-card class="oj-flex-item" 
+        <oraclejet-demo-card class="oj-flex-item" 
                    name="{{name}}" 
                    avatar="{{avatar}}" 
                    work-title="{{title}}" 
                    work-number="{{work}}" 
                    email="{{email}}" 
                    background-image="{{backgroundImage}}">
-        </demo-card>
+        </oraclejet-demo-card>
         <!-- /ko -->
     </div>
 	
