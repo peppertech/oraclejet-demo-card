@@ -33,6 +33,6 @@ In your viewmodel provide an array named "employees" that contains the following
 	backgroundImage: 'images/composites/card-background.png' <optional>
 }]
 
-In the viewmodel define block make sure the "ojs/ojcomposite" is loaded and 
-add a reference to the "loader.js" module from the oraclejet-demo-card installation folder
+In the viewmodel add a reference to the "loader.js" module from the oraclejet-demo-card installation folder
 
+'oraclejet-demo-card/loader'
