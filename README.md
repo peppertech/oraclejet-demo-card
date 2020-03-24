@@ -26,11 +26,11 @@ In your viewmodel provide an array named "employees" that contains the following
 
 [{
 	name: 'Fred Flinstone',
-	avatar: 'images/composites/debraphaely.png', <optional>
+	avatar: 'images/debraphaely.png', <optional>
 	title: 'Purchasing Director',
 	work: '5171278899',
 	email: 'fred.flinstone@example.com',
-	backgroundImage: 'images/composites/card-background.png' <optional>
+	backgroundImage: 'images/card-background.png' <optional>
 }]
 
 In the viewmodel add a reference to the "loader.js" module from the oraclejet-demo-card installation folder
