@@ -9,18 +9,17 @@ _npm install oraclejet-demo-card_
 Add the following to the HTML view that you want to load the card into.
 
 ```html
-<div id="card-holder" class="oj-flex">
+<div id="card-holder">
   <oj-bind-for-each data="[[employees]]">
     <template>
-      <demo-card
-        class="oj-flex-item"
+      <oraclejet-demo-card
         name="[[$current.data.name]]"
         avatar="[[$current.data.avatar]]"
         work-title="[[$current.data.title]]"
         work-number="[[$current.data.work]]"
         email="[[$current.data.email]]"
       >
-      </demo-card>
+      </oraclejet-demo-card>
     </template>
   </oj-bind-for-each>
 </div>
@@ -31,9 +30,9 @@ In your viewmodel provide an array named "employees" that contains the following
 ```javascript
 [{
     name: 'Fred Flintstone',
-    avatar: 'images/debraphaely.png', <== optional
+    avatar: 'css/images/avatar_24px_2x.png', <== optional
     title: 'Purchasing Director',
-    work: '5171278899',
+    work: 5171278899,
     email: 'fred.flintstone@example.com',
     backgroundImage: 'images/background.png' <== optional
 }]
