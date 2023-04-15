@@ -31,11 +31,11 @@ In your viewmodel provide an array named "employees" that contains the following
 ```javascript
 [{
     name: 'Fred Flintstone',
-    avatar: 'images/debraphaely.png', <optional>
+    avatar: 'images/debraphaely.png', <== optional
     title: 'Purchasing Director',
     work: '5171278899',
     email: 'fred.flintstone@example.com',
-    backgroundImage: 'images/background.png', <optional>
+    backgroundImage: 'images/background.png' <== optional
 }]
 
 ```
