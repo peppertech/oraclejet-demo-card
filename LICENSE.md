@@ -1,4 +1,4 @@
-Copyright (c) 2016 John "JB" Brock
+Copyright (c) 2016-2023 John "JB" Brock
 The Universal Permissive License (UPL), Version 1.0
 
 Subject to the condition set forth below, permission is hereby granted to any person obtaining
