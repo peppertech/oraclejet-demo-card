@@ -1,6 +1,6 @@
 # oraclejet-demo-card
 
-sample of a composite component to test delivery via nmp
+Sample of a composite component to test delivery via npm
 
 ## Installation and use
 
